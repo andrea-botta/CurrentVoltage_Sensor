@@ -770,6 +770,11 @@
     (uuid fc8a72bf-82ea-433b-aa2c-a4c9fab79cc0)
   )
 
+  (text "REVISIONS\nV 1.0 - First\nV 1.1 - Fixed PCB traces (PIN2 and solder jumper \"H\"s connected to V_{IN} now)"
+    (at 27.94 179.705 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 03146ea8-bb70-4583-8412-17539d547d8a)
+  )
   (text "V_{out}" (at 74.93 113.03 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3bf1d92e-7d5c-42c3-999d-6b0e80c1ee69)
@@ -945,7 +950,7 @@
     (property "Reference" "R1" (at 80.01 83.82 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "LRMAP3920C-R0015FT" (at 80.01 86.36 90)
+    (property "Value" "HoLRS1575-1.5mR-1%" (at 80.01 86.36 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "SamacSys_Parts:RESC10052X90N" (at -13.64 90.17 0)
@@ -975,10 +980,10 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/lrmap3920c-r0015ft/irc" (at -913.64 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid 6774e607-0fde-47e4-8f34-035eaca75509))
-    (pin "2" (uuid 6c62a451-b8fa-4127-96d7-21a3b22d1f77))
-    (pin "3" (uuid 3e157601-30da-4ce4-80c8-d8c1c875872a))
-    (pin "4" (uuid 44776591-02e4-44b1-b145-9b77f6b6450d))
+    (pin "1" (uuid 950f02cd-1886-43ab-a2c8-95bc6503c464))
+    (pin "2" (uuid 69acc9a8-ebd7-4907-aab1-1350d9e77729))
+    (pin "3" (uuid 8b0ca9c9-245d-46df-9a0b-4c9171c5ee12))
+    (pin "4" (uuid e3587a7f-3566-47a4-aaca-2a4293818633))
     (instances
       (project "CurrentVoltage_Sensor"
         (path "/30acc449-00f7-4c04-af50-0e995d4fe042"
